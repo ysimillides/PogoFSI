@@ -16,7 +16,7 @@ cy = ((dy/2)*ny)-(dy/2);
 m = genGrid2D(nx,ny,dx,dy,cx,cy);                                       
 %imports mode shapes from Disperse txt file, Uxreal/Uzreal are the ones
 %we're interested in
-[Position,Uxreal,Uximag,Uzreal,Uzimag,Uyreal,Uyimag] = importfile4('D:\OneDrive - Imperial College London\uza0modeshape.txt',2, 52)
+[Position,Uxreal,Uximag,Uzreal,Uzimag,Uyreal,Uyimag] = importfile4('D:\OneDrive - Imperial College London\watersteelwater.txt',2, 52)
 
 %%
 nNodes = size(m.nodePos,2);
